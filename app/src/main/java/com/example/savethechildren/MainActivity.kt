@@ -67,7 +67,7 @@ class MainActivity : ComponentActivity() {
                         //sendLocationToApi(lat, lon)
                     }
                 } else {
-                    Toast.makeText(this, "Permission denied", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Permiso negado", Toast.LENGTH_SHORT).show()
                 }
             }
         )
